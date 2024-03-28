@@ -8,7 +8,7 @@ import pagepkg.Contactpage;
 
 public class Contacttest extends Base
 {
-@Test
+@Test(priority=3)
 
 	public void test()throws Throwable
 {

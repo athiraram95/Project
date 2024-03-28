@@ -17,7 +17,7 @@ import pagepkg.Neogenpage;
 public class Neogentest extends Base
 {
 
-@Test
+@Test(priority=1)
 public void test() throws Throwable
 {
 	 

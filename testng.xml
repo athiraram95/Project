@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="1" name="Suite">
-  <test thread-count="1" name="NogenTest">
+  <test thread-count="1" name="NeogenTest">
     <classes>
-      <class name="testpkg.Contacttest"/>
-      <class name="testpkg.Medicinetest"/>
       <class name="testpkg.Neogentest"/>
+      <class name="testpkg.Medicinetest"/>
+      <class name="testpkg.Contacttest"/>
     </classes>
   </test> <!-- NogenTest -->
 </suite> <!-- Suite -->

@@ -9,7 +9,7 @@ import pagepkg.Medicinepage;
 
 public class Medicinetest extends Base  {
 
- @Test
+ @Test(priority=2)
 	public void test()throws Throwable
 	{
 		
