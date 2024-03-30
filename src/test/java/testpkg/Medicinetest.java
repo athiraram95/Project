@@ -1,7 +1,5 @@
 package testpkg;
 
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.testng.annotations.Test;
 
 import pagepkg.Base;
@@ -16,8 +14,11 @@ public class Medicinetest extends Base  {
 		Medicinepage ob=new Medicinepage(driver);
 		ob.imageclicking();
 		ob.menuclick();
-		ob.productclick();
+		ob.product();
 		ob.cart();
 		ob.cartview();
+		ob.homeclick();
+		
+		
 	}
 }

@@ -55,13 +55,6 @@ public void menuclicks()
 {
 contact.click();	
 }
-public void scrollpage()
-{
-JavascriptExecutor js=(JavascriptExecutor)driver;
-js.executeScript("window.scrollBy(0,3300)");
-		
-}
-
 public void setvalues(String Fame,String Lname,String mail,String phone,String msg)
 {
 	name.sendKeys("Athira");
@@ -75,6 +68,18 @@ public void submitclick()
 {
 submit.click();	
 }
+public void scrollpage()
+{
+	name.click();
+	lname.click();
+	email.click();
+	phnumber.click();
+	message.click();
+JavascriptExecutor js=(JavascriptExecutor)driver;
+js.executeScript("window.scrollBy(0,10000)");
+		}
+
+
 
 
 }

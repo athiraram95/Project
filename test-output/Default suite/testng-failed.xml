@@ -9,6 +9,18 @@
           <include name="setup"/>
         </methods>
       </class> <!-- testpkg.Contacttest -->
+      <class name="testpkg.Medicinetest">
+        <methods>
+          <include name="test"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testpkg.Medicinetest -->
+      <class name="testpkg.Neogentest">
+        <methods>
+          <include name="test"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testpkg.Neogentest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

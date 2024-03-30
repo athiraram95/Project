@@ -28,11 +28,11 @@ public class Medicinepage extends Neogenpage {
 	@FindBy(xpath="//*[@id=\"content\"]/div[3]/section[1]/div/div/div/section/div/div[2]/div/div[6]/div/div/a")
 	WebElement addtocart;
 	
-	@FindBy(xpath="//*[@id=\"post-8686\"]/div/div/div[1]/div/div/a")
-	WebElement home;
-	
 	@FindBy(xpath="//*[@id=\"masthead\"]/div[1]/div/div[2]/div/div/div/div/div[2]/div[1]/div/a/span/span[1]/i")
 	WebElement cartview;
+	
+	@FindBy(xpath="//*[@id=\"post-8686\"]/div/div/div[1]/div/div/a")
+	WebElement home;
 	
 	public void Medicinepage(WebDriver driver)
 	{
@@ -49,19 +49,22 @@ public class Medicinepage extends Neogenpage {
 	{
 	medicines.click();
 	}
-	
-	public void productclick()
+	public void product()
 	{
-	product.click();
+		product.click();
 	}
 	public void cart()
 	{
 	addtocart.click();
-	home.click();
 	}
 	public void cartview()
 	{
 	cartview.click();
 	}
+	public void homeclick()
+	{
+		home.click();
+	}
+	
 	
 }
